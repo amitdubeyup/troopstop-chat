@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
-const port = 6000;
+const port = 9000;
 const config = require('./app/config');
 const chatController = require('./app/controllers/chat');
 
@@ -39,4 +39,4 @@ wss.on('connection', function connection(ws) {
   });
 });
 // Web Socket Connection End
-console.log('Text chat server is running on post: ' + port);
+console.log('Socket server is running on post: ' + port);

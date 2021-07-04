@@ -1,15 +1,15 @@
 {
-  "name": "moshikhayaka-text-chat",
+  "name": "troopstop-chat",
   "version": "1.0.0",
-  "description": "A awesome app for online text chat!",
+  "description": "A awesome app for online chat!",
   "engines": {
     "node": ">=12.0.0",
     "npm": ">=6.0.0"
   },
-  "main": "text-chat.js",
-  "start": "node text-chat.js",
+  "main": "index.js",
+  "start": "node index.js",
   "scripts": {
-    "start": "node text-chat.js",
+    "start": "node index.js",
     "test": "App is working fine!"
   },
   "author": "Amit Dubey",
