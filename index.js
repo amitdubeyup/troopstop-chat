@@ -1,6 +1,10 @@
+// const express = require("express");
+// const socket = require("socket.io");
+// const app = express();
+const port = process.env.PORT || 9000;
+
 const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
-const port = 9000;
 const config = require('./app/config');
 const chatController = require('./app/controllers/chat');
 
