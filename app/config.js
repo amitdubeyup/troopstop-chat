@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = {
-  database: 'mongodb+srv://troopstop:troopstop@troopstop.kqem8.mongodb.net/troopstop',
+  database: process.env.DATABASE,
 };
